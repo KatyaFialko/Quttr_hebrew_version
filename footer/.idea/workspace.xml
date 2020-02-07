@@ -1,10 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="a88b6a84-0f56-48a6-858e-2d31797fbaf1" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-    </list>
+    <list default="true" id="52999cdb-2588-4cd0-a8ed-70e22315025b" name="Default Changelist" comment="" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -12,9 +9,9 @@
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
   <component name="Git.Settings">
-    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/.." />
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
-  <component name="ProjectId" id="1XQY4sgHEvkjCYzROmdrmHff7pv" />
+  <component name="ProjectId" id="1XQQVPdTGswiRGXzkl8phfZYBhp" />
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="PropertiesComponent">
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
@@ -37,14 +34,19 @@
   </component>
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
-      <changelist id="a88b6a84-0f56-48a6-858e-2d31797fbaf1" name="Default Changelist" comment="" />
-      <created>1580979597923</created>
+      <changelist id="52999cdb-2588-4cd0-a8ed-70e22315025b" name="Default Changelist" comment="" />
+      <created>1580975861444</created>
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
-      <updated>1580979597923</updated>
-      <workItem from="1580979599120" duration="564000" />
-      <workItem from="1581084631418" duration="112000" />
-      <workItem from="1581096607047" duration="376000" />
+      <updated>1580975861444</updated>
+      <workItem from="1580975862939" duration="1990000" />
+      <workItem from="1580978380296" duration="233000" />
+      <workItem from="1580993124938" duration="14000" />
+      <workItem from="1581072228552" duration="1768000" />
+      <workItem from="1581080107698" duration="189000" />
+      <workItem from="1581086665116" duration="1610000" />
+      <workItem from="1581090117731" duration="702000" />
+      <workItem from="1581092535607" duration="1438000" />
     </task>
     <servers />
   </component>
@@ -56,7 +58,9 @@
       <map>
         <entry key="MAIN">
           <value>
-            <State />
+            <State>
+              <option name="COLUMN_ORDER" />
+            </State>
           </value>
         </entry>
       </map>
