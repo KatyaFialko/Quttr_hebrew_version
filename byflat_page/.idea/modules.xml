@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/.idea/byflat_page.iml" filepath="$PROJECT_DIR$/.idea/byflat_page.iml" />
+      <module fileurl="file://$PROJECT_DIR$/../byflat_page (1)/.idea/byflat_page (1).iml" filepath="$PROJECT_DIR$/../byflat_page (1)/.idea/byflat_page (1).iml" />
+      <module fileurl="file://$PROJECT_DIR$/../main_page 3/.idea/main_page.iml" filepath="$PROJECT_DIR$/../main_page 3/.idea/main_page.iml" />
+    </modules>
+  </component>
+</project>

@@ -135,24 +135,25 @@ url('OpenSansHebrew-Bold.otf') format('opentype');
 .contact-block3 {
     padding-top: 75px;
 }
-.contact-form {
+.question-form {
     width: 100%;
     max-width: 648px;
     margin: 0 auto;
+    color: #F0EFEB;
 }
-.contact-form h2 {
+.question-form h2 {
     text-align: center;
     text-transform: uppercase;
     letter-spacing: 2px;
 }
-.contact-text {
+.text-form {
     font-size: 14px;
     opacity: 0.45;
     margin-top: 22px;
     margin-bottom: 40px;
     text-align: center;
 }
-.contact-name, .contact-phone, .contact-comment {
+.name, .comment {
     width: 313px;
     height: 42px;
     border: 1px solid rgba(240, 239, 235, 0.12);
@@ -176,11 +177,11 @@ url('OpenSansHebrew-Bold.otf') format('opentype');
     align-items: center;
     border: 1px solid rgba(240, 239, 235, 0.12);
 }
-.name-contact, .convenient-contact {
+.name-phone, .convenient-send {
     display: flex;
     justify-content: space-between;
 }
-.contact-comment {
+.comment {
     width: 648px;
     height: 92px;
     margin-top: 23px;
@@ -189,7 +190,7 @@ url('OpenSansHebrew-Bold.otf') format('opentype');
     color: #F0EFEB;
     resize: none;
 }
-.contact-send {
+.send {
     width: 313px;
     height: 42px;
     border: 1px solid #D8AC7A;
@@ -203,16 +204,16 @@ url('OpenSansHebrew-Bold.otf') format('opentype');
 .contact-send:hover {
     opacity: 1;
 }
-input.contact-name:focus {
+input.name:focus {
     border: 1px solid rgba(240, 239, 235, 0.45);
 }
-input.contact-phone:focus {
+/*input.phone:focus {*/
+/*    border: 1px solid rgba(240, 239, 235, 0.45);*/
+/*}*/
+textarea.comment:focus {
     border: 1px solid rgba(240, 239, 235, 0.45);
 }
-textarea.contact-comment:focus {
-    border: 1px solid rgba(240, 239, 235, 0.45);
-}
-span.contact-convenient:focus {
+span.convenient-send:focus {
     border: 1px solid rgba(240, 239, 235, 0.45);
 }
 ::-webkit-input-placeholder {
@@ -333,6 +334,68 @@ span.contact-convenient:focus {
     display: flex;
     justify-content: center;
 }
+.phoneMenuItem {
+    display: flex;
+    justify-content: space-between;
+    padding-top: 10px;
+}
+
+.name-phone .dropdown {
+    background-color: rgba(35, 52, 52, 1);
+    z-index: 1;
+    max-height: 95px;
+    overflow-y: auto;
+}
+
+.dropdown::-webkit-scrollbar {
+    width: 4px;
+    background: white;
+}
+
+.dropdown::-webkit-scrollbar-thumb {
+    background: rgba(216, 172, 122, 1)
+}
+
+.name-phone .dropdown li {
+    display: block;
+    opacity: 0.35;
+    color: rgba(240, 239, 235, 0.45);
+    cursor: pointer;
+}
+
+.name-phone .dropdown li:hover {
+    opacity: 1;
+    border-bottom: 2px solid #F0EFEB;
+    font-size: 16px;
+}
+
+.name-phone .dropdown li:last-child {
+    margin-bottom: 10px;
+}
+
+.border-input {
+    border: 1px solid rgba(240, 239, 235, 0.12);
+    display: flex;
+    width: 313px;
+    height: 40px;
+    align-items: center;
+}
+
+.border-input .phone {
+    border: none;
+    background: none;
+    font-size: 14px;
+    color: white;
+    margin-right: 20px;
+    width: 110px;
+    border-right: 1px solid white;
+    padding-right: 20px;
+}
+
+.phone-number {
+    right: 10px;
+    position: relative;
+}
 @media only screen and (max-width: 375px) {
     .contact-common {
         height: 100%;
@@ -388,33 +451,34 @@ span.contact-convenient:focus {
     .contact-block3 {
     padding-top: 45px;
     }
-
-
-
     .wrapper .dropdown li a {
         padding: 5px 0 4px 0;
     }
-    .contact-form h2 {
+    .question-form h2 {
         font-size: 18px;
     }
-    .contact-form p {
+    .question-form p {
         width: 270px;
         font-size: 14px;
         margin: 35px auto 20px auto;
     }
-    .name-contact, .convenient-contact {
+    .name-phone, .convenient-send {
         flex-direction: column;
         width: 313px;
         margin: 0 auto;
     }
-    .contact-phone {
+    .phone {
         margin-top: 23px;
     }
     .textarea {
         width: 313px;
         margin: 0 auto;
     }
-    .contact-comment {
+    .send {
+        margin-top: 40px;
+        opacity: 1;
+    }
+    .comment {
         width: 313px;
         height: 176px;
     }
@@ -427,5 +491,14 @@ span.contact-convenient:focus {
     }
     .mobile-map {
         display: block;
+    }
+    .border-input {
+        margin-top: 20px;
+    }
+    .name-phone .arrow-img img {
+        top: 30px;
+    }
+    .border-input .phone {
+        margin-bottom: 20px;
     }
 }

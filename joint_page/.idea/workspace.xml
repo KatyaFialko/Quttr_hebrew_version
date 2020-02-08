@@ -2,14 +2,35 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="a88b6a84-0f56-48a6-858e-2d31797fbaf1" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../estate_page/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../repair_page/.idea/repair_page.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../contact_page/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../contact_page/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../contact_page/contact_hebrew.css" beforeDir="false" afterPath="$PROJECT_DIR$/../contact_page/contact_hebrew.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../contact_page/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/../contact_page/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../contact_page/script.js" beforeDir="false" afterPath="$PROJECT_DIR$/../contact_page/script.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../estate_page/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../estate_page/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../estate_page/estate_hebrew.css" beforeDir="false" afterPath="$PROJECT_DIR$/../estate_page/estate_hebrew.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../estate_page/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/../estate_page/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../estate_page/script.js" beforeDir="false" afterPath="$PROJECT_DIR$/../estate_page/script.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/joint_hebrew.css" beforeDir="false" afterPath="$PROJECT_DIR$/joint_hebrew.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../question_block/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/../question_block/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../question_block/question_hebrew.css" beforeDir="false" afterPath="$PROJECT_DIR$/../question_block/question_hebrew.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../question_block/script.js" beforeDir="false" afterPath="$PROJECT_DIR$/../question_block/script.js" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="JavaScript File" />
+      </list>
+    </option>
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/.." />
@@ -45,6 +66,7 @@
       <workItem from="1580979599120" duration="564000" />
       <workItem from="1581084631418" duration="112000" />
       <workItem from="1581096607047" duration="376000" />
+      <workItem from="1581167017967" duration="1299000" />
     </task>
     <servers />
   </component>
@@ -56,7 +78,9 @@
       <map>
         <entry key="MAIN">
           <value>
-            <State />
+            <State>
+              <option name="COLUMN_ORDER" />
+            </State>
           </value>
         </entry>
       </map>
